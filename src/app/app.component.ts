@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'advance-component-one';
+
+  showMessage(value: any){
+    console.log('toogle clicked!' + value)
+  }
+
 }
